@@ -1,0 +1,18 @@
+[project]
+name = "webscraper"
+version = "0.1.0"
+description = "Simple webscraper using BeautifulSoup"
+authors = [
+    {name = "Codex"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "beautifulsoup4",
+    "requests"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
